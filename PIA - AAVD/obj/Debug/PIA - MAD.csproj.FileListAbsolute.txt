@@ -1,0 +1,222 @@
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA - MAD.csproj.AssemblyReference.cache
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA - MAD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA - MAD.csproj.GenerateResource.cache
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Properties.Resources.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\bin\Debug\PIA - MAD.exe.config
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\bin\Debug\PIA - MAD.exe
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\bin\Debug\PIA - MAD.pdb
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Admin.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.login.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Operativo.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.regUsuario.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.cancelaciones.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.historial.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas.regHoteles.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.rehabilitarUsuario.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteOcupacion.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteVenta.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkIn.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkOut.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.generarFactura.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.pedirContraseña.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservaciones.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservacionesHabitaciones.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.regHabitacion.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.registrarUsuario.resources
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA - MAD.exe
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA - MAD.pdb
+C:\Users\Tomas\Desktop\MAD - PIA\MAD_PIA\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.btnRegistrarCliente.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\bin\Debug\PIA - MAD.exe.config
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\bin\Debug\PIA - MAD.exe
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\bin\Debug\PIA - MAD.pdb
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.AssemblyReference.cache
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Admin.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.login.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Operativo.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.regUsuario.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.cancelaciones.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.historial.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas.regHoteles.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.rehabilitarUsuario.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteOcupacion.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteVenta.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkIn.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkOut.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.btnRegistrarCliente.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.generarFactura.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.pedirContraseña.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservaciones.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservacionesHabitaciones.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Properties.Resources.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.registrarUsuario.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.GenerateResource.cache
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CoreCompileInputs.cache
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.exe
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.pdb
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.regHabitacion.resources
+C:\Users\Rogelio\source\repos\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.regTipoHab.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\bin\Debug\PIA - MAD.exe.config
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\bin\Debug\PIA - MAD.exe
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\bin\Debug\PIA - MAD.pdb
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.AssemblyReference.cache
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Admin.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.login.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Operativo.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.regUsuario.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.cancelaciones.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.historial.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas.regHoteles.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.rehabilitarUsuario.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteOcupacion.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteVenta.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.regHabitacion.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkIn.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkOut.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.btnRegistrarCliente.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.generarFactura.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.pedirContraseña.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservaciones.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservacionesHabitaciones.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.Properties.Resources.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.regTipoHab.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA___MAD.registrarUsuario.resources
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.GenerateResource.cache
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CoreCompileInputs.cache
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.exe
+C:\Users\Rogelio\Desktop\PIA-MAD\PIA - AAVD\obj\Debug\PIA - MAD.pdb
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\bin\Debug\PIA - MAD.exe.config
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\bin\Debug\PIA - MAD.exe
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\bin\Debug\PIA - MAD.pdb
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA - MAD.csproj.AssemblyReference.cache
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA - MAD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Admin.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.login.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Operativo.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.regUsuario.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.cancelaciones.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.historial.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas.regHoteles.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.rehabilitarUsuario.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteOcupacion.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteVenta.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.regHabitacion.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkIn.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkOut.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.btnRegistrarCliente.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.pedirContraseña.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservaciones.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservacionesHabitaciones.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.Properties.Resources.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.regTipoHab.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA___MAD.registrarUsuario.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA - MAD.csproj.GenerateResource.cache
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA - MAD.exe
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\MAD---PROYECTO\PIA - AAVD\obj\Debug\PIA - MAD.pdb
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\PIA - MAD.exe.config
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\PIA - MAD.exe
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\PIA - MAD.pdb
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Cassandra.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Buffers.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Memory.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Cassandra.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Buffers.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Memory.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.AssemblyReference.cache
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Admin.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.login.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Operativo.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.regUsuario.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.cancelaciones.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.historial.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas.regHoteles.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.rehabilitarUsuario.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteOcupacion.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteVenta.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.regHabitacion.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkIn.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkOut.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.btnRegistrarCliente.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.pedirContraseña.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservaciones.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservacionesHabitaciones.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.Properties.Resources.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.regTipoHab.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA___MAD.registrarUsuario.resources
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.GenerateResource.cache
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CoreCompileInputs.cache
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CopyComplete
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA - MAD.exe
+C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA - MAD.pdb
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.AssemblyReference.cache
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Admin.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.login.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Operativo.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.regUsuario.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.cancelaciones.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.historial.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas.regHoteles.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.rehabilitarUsuario.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteOcupacion.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteVenta.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.regHabitacion.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkIn.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkOut.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.btnRegistrarCliente.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.pedirContraseña.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservaciones.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservacionesHabitaciones.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Properties.Resources.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.regTipoHab.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.registrarUsuario.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.GenerateResource.cache
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CoreCompileInputs.cache
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.exe
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.pdb
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\PIA - MAD.exe.config
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\PIA - MAD.exe
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\PIA - MAD.pdb
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Cassandra.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Buffers.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Memory.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Cassandra.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Buffers.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Memory.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CopyComplete

@@ -1,0 +1,97 @@
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.AssemblyReference.cache
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Admin.resources
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Properties.Resources.resources
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.GenerateResource.cache
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\bin\Debug\PIA - AAVD.exe.config
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\bin\Debug\PIA - AAVD.exe
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\bin\Debug\PIA - AAVD.pdb
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.exe
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.pdb
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.PRUEBA.resources
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.registrarUsuario.resources
+C:\Users\Tomas\source\repos\WinForms\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Operativo.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\bin\Debug\PIA - AAVD.exe.config
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\bin\Debug\PIA - AAVD.exe
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\bin\Debug\PIA - AAVD.pdb
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.AssemblyReference.cache
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Admin.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Operativo.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Properties.Resources.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.registrarUsuario.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.GenerateResource.cache
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.CoreCompileInputs.cache
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.exe
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA - AAVD.pdb
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas.regHoteles.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.regHabitacion.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.cancelaciones.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.reporteVenta.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.historial.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.rehabilitarUsuario.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.reporteOcupacion.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.checkIn.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.checkOut.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.clientes.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.generarFactura.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.pedirContraseña.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.reservaciones.resources
+C:\Users\Rogelio\Documents\Proyectos\AAVD\PIA - AAVD\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.reservacionesHabitaciones.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\bin\Debug\PIA - AAVD.exe.config
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\bin\Debug\PIA - AAVD.exe
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\bin\Debug\PIA - AAVD.pdb
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.AssemblyReference.cache
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Admin.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.login.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Operativo.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.cancelaciones.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.historial.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas.regHoteles.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.rehabilitarUsuario.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.reporteOcupacion.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.reporteVenta.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.checkIn.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.checkOut.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.clientes.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.generarFactura.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.pedirContraseña.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.reservaciones.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.reservacionesHabitaciones.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Properties.Resources.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.regHabitacion.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA___AAVD.registrarUsuario.resources
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.GenerateResource.cache
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.CoreCompileInputs.cache
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA - AAVD.exe
+D:\UNIVERSIDAD\Facu\Enero - Jun 2023\AAVD\PIA\PIA - AAVD\obj\Debug\PIA - AAVD.pdb
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\bin\Debug\PIA - AAVD.exe.config
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\bin\Debug\PIA - AAVD.exe
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\bin\Debug\PIA - AAVD.pdb
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.AssemblyReference.cache
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Admin.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.login.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Operativo.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.cancelaciones.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.historial.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas.regHoteles.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.rehabilitarUsuario.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.reporteOcupacion.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.reporteVenta.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.checkIn.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.checkOut.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.clientes.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.generarFactura.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.pedirContraseña.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.reservaciones.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.reservacionesHabitaciones.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.Properties.Resources.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.regHabitacion.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.registrarUsuario.resources
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.GenerateResource.cache
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA - AAVD.csproj.CoreCompileInputs.cache
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA - AAVD.exe
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA - AAVD.pdb
+C:\Users\Tomas\Desktop\AAVD - PIA (Definitivo)\AAVD_PIA\PIA - AAVD\obj\Debug\PIA___AAVD.regUsuario.resources
