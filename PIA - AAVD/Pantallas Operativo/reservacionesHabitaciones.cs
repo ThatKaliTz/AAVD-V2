@@ -1,4 +1,5 @@
-﻿using PIA___MAD.SQL_Conexion;
+﻿using PIA___AAVD;
+using PIA___MAD.SQL_Conexion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -73,8 +74,9 @@ namespace PIA___MAD.Pantallas_Operativo
                 return;
             }
 
-                ConexionSQL conexionSQL = new ConexionSQL();
-            Guid codigoReservacion = Guid.Empty;
+            EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+
+            int codigoReservacion = enlace.ObtenerNumeroRegistros("reserva");
             int idHabitacion;
             var Err = false; // SI no hay error
 
@@ -85,7 +87,7 @@ namespace PIA___MAD.Pantallas_Operativo
                 DataGridViewRow habitacionSeleccionada = dataGridView1.SelectedRows[0];
 
                 // Obtener los valores de las celdas de la fila seleccionada
-                string strHabitacion = habitacionSeleccionada.Cells["idHabitacion"].Value.ToString();
+                string strHabitacion = habitacionSeleccionada.Cells["idhabitacion"].Value.ToString();
                 idHabitacion = Convert.ToInt16(strHabitacion);
             }
             else
@@ -96,6 +98,7 @@ namespace PIA___MAD.Pantallas_Operativo
 
             try
             {
+
                 float Anticipo = Convert.ToSingle(txtAnticipo.Text);
                 string servUtilizados = Convert.ToString(txtServiciosAd.Text);
                 float descuento = Convert.ToSingle(txtDescuento.Text);
@@ -106,22 +109,21 @@ namespace PIA___MAD.Pantallas_Operativo
                 int hotelID = Convert.ToInt16(reservID.HotelID);
                 DateTime fechaRegistro = DateTime.Now.Date;
                 TimeSpan horaRegistro = DateTime.Now.TimeOfDay;
-
-                codigoReservacion = conexionSQL.InsertarReserva(fechaInicio, fechaFin, servUtilizados, costoServicio,
-                    MetodoPago, descuento, Anticipo, numeroFactura, cantidadPersonas, Validaciones.usuario,
-                    fechaRegistro, horaRegistro, reservID.ClienteRFC, idHabitacion);
+                bool checkin = false;
+                bool checkout = false;
+                enlace.insertReserva(codigoReservacion, fechaFin.ToString("yyyy-MM-dd"), fechaFin.ToString("yyyy-MM-dd"), servUtilizados, costoServicio,
+                    MetodoPago, descuento, Anticipo, numeroFactura, cantidadPersonas, checkin, checkout);
             }
             catch (Exception ex)
             {
                 Err = true;
             }
 
-            if (!Err && codigoReservacion != Guid.Empty)
+            if (!Err )
             {
                 reservID.ClienteRFC = null;
                 reservID.HotelID = null;
 
-                MessageBox.Show("Su codigo de reservacion es" + codigoReservacion.ToString(), "Reserva completada", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 panelOpenForm.Visible = true;
                 panelOpenForm.Controls.Clear();
@@ -140,15 +142,18 @@ namespace PIA___MAD.Pantallas_Operativo
         private void btnBuscarHabitacion_Click(object sender, EventArgs e)
         {
             //
-            ConexionSQL conexionSQL = new ConexionSQL();
+            //ConexionSQL conexionSQL = new ConexionSQL();
+            EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+
             try
             {
                 DateTime FechaInicio = dtpFechaInicio.Value.Date;
                 DateTime FechaFin = dtpFechaFin.Value.Date;
                 int personasHospedar = Convert.ToInt16(txtCantidad.Text);
                 int hotelID = Convert.ToInt16(reservID.HotelID);
-                DataTable dt = conexionSQL.rObtenerHabitacionesDisponibles(hotelID, FechaInicio, FechaFin, personasHospedar);
-                dataGridView1.DataSource = dt;
+
+                List < Clases.HabitacionCheckOut> tablaHotel = enlace.ObtenerHabitacionesCheckOut(hotelID, FechaInicio, FechaFin, personasHospedar);
+                dataGridView1.DataSource = tablaHotel;
 
             }
             catch (Exception ex)

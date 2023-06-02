@@ -13,6 +13,8 @@ using static PIA___MAD.Clases;
 using static System.Collections.Specialized.BitVector32;
 using System.Data;
 using System.Globalization;
+using System.Collections;
+using static PIA___MAD.Conexion.CassandraConexion;
 
 namespace PIA___AAVD
 {
@@ -410,22 +412,44 @@ namespace PIA___AAVD
             {
                 conectar();
 
-                string query = $"SELECT idhabitacion FROM habitacion WHERE idhotel_hab = '{idHotel}' ALLOW FILTERING ";
+                string query = $"SELECT idhabitacion, idtipo_hab FROM habitacion WHERE idhotel_hab = {idHotel} ALLOW FILTERING ";
                 RowSet result = _session.Execute(query);
 
-                dataTable.Columns.Add("idhotel");
-                dataTable.Columns.Add("nombrehotel");
-                dataTable.Columns.Add("ciudadhotel");
+
+                dataTable.Columns.Add("idhabitacion");
+
 
                 foreach (Row row in result)
                 {
-                    DataRow dataRow = dataTable.NewRow();
-                    dataRow["idhotel"] = row.GetValue<int>("idhotel");
-                    dataRow["nombrehotel"] = row.GetValue<string>("nombrehotel");
-                    dataRow["ciudadhotel"] = row.GetValue<string>("ciudadhotel");
+                    DataRow dataRow = dataTable.        NewRow();
+                    dataRow["idhabitacion"] = row.GetValue<int>("idhabitacion");
+                     
+                    //dataRow["nombrehotel"] = row.GetValue<string>("nombrehotel");
+                    //dataRow["ciudadhotel"] = row.GetValue<string>("ciudadhotel");
                     dataTable.Rows.Add(dataRow);
 
                 }
+
+
+                string query2 = $"SELECT nombretipo, limitepersonas FROM tipohabitacion WHERE idhoteltipohab = {idHotel} ALLOW FILTERING ";
+                RowSet result2 = _session.Execute(query2);
+
+                dataTable.Columns.Add("nombretipo");
+                dataTable.Columns.Add("limitepersonas");
+
+
+                foreach (Row row in result2)
+                {
+                    DataRow dataRow = dataTable.NewRow();
+                    dataRow["nombretipo"] = row.GetValue<string>("nombretipo");
+                    dataRow["limitepersonas"] = row.GetValue<int>("limitepersonas");
+
+                    //dataRow["nombrehotel"] = row.GetValue<string>("nombrehotel");
+                    //dataRow["ciudadhotel"] = row.GetValue<string>("ciudadhotel");
+                    dataTable.Rows.Add(dataRow);
+
+                }
+
             }
             catch (Exception e)
             {
@@ -499,35 +523,80 @@ namespace PIA___AAVD
         }
 
 
+        public Tuple<string, int> ObtenerTipoHabitacion(int idTipoHabitacion)
+        {
+            try
+            {
+                //conectar();
+
+                string query = $@"SELECT nombretipo, limitepersonas
+                                  FROM tipohabitacion
+                                  WHERE idtipo = {idTipoHabitacion} ALLOW FILTERING;";
+
+                RowSet result = _session.Execute(query);
+
+                Row row = result.FirstOrDefault();
+
+                if (row != null)
+                {
+                    string nombreTipo = row.GetValue<string>("nombretipo");
+                    int limitePersonas = row.GetValue<int>("limitepersonas");
+
+                    return new Tuple<string, int>(nombreTipo, limitePersonas);
+                }
+
+                return null;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+                throw e;
+            }
+            finally
+            {
+                //desconectar();
+            }
+        }
+
+
         public List<Clases.HabitacionCheckOut> ObtenerHabitacionesCheckOut(int idHotel, DateTime fechaInicio, DateTime fechaFin, int cantidadPersonas)
         {
             List<Clases.HabitacionCheckOut> habitaciones = new List<Clases.HabitacionCheckOut>();
-
+            string nombreTipo = "0";
+            int limitePersonas = 0;
             try
             {
                 conectar();
 
                 // Consulta para obtener las habitaciones disponibles según el idHotel
-                string query = $@"SELECT Habitacion.idHabitacion, tipoHabitacion.nombreTipo, tipoHabitacion.limitePersonas
-                                  FROM Habitacion
-                                  WHERE Habitacion.idHotel = {idHotel}
-                                  ALLOW FILTERING;";
+                string queryHabitacion = $@"SELECT idhabitacion, idtipo_hab
+                                  FROM habitacion
+                                  WHERE idhotel_hab = {idHotel}
+                                  ALLOW FILTERING;
+                ";
 
-                RowSet result = _session.Execute(query);
+                RowSet result = _session.Execute(queryHabitacion);
 
 
                 foreach (Row row in result)
                 {
                     int idHabitacion = row.GetValue<int>("idhabitacion");
-                    string nombreTipo = row.GetValue<string>("nombretipo");
-                    int limitePersonas = row.GetValue<int>("limitepersonas");
+                    int idTipoHabitacion = row.GetValue<int>("idtipo_hab");
+                    // Esto va en tipoHabitacion
+                    Tuple<string, int> tipoHabitacion = ObtenerTipoHabitacion(idTipoHabitacion);
 
-                    // Validar si la habitación está reservada en el intervalo de fechas proporcionado
+                    if (tipoHabitacion != null)
+                    {
+                         nombreTipo = tipoHabitacion.Item1;
+                         limitePersonas = tipoHabitacion.Item2;
+                    }
+
+                    // Validar si la habitacion está reservada en el intervalo de fechas proporcionado
                     bool habitacionReservada = false;
                     // Aqui va el queryReserva
                     string queryReserva = $@"SELECT *
-                             FROM Reserva
-                             WHERE idHotel = {idHotel} AND idHabitacion = {idHabitacion}";
+                             FROM reserva
+                             WHERE idhabitacion = {idHabitacion} ALLOW FILTERING";
 
                     RowSet resultReserva = _session.Execute(queryReserva);
                     List<Clases.Reserva> reservas = MapReservas(resultReserva, idHotel, idHabitacion);
@@ -548,9 +617,9 @@ namespace PIA___AAVD
                     }
 
                     if (habitacionReservada)
-                        continue; // La habitación está reservada en el intervalo de fechas, se omite
+                        continue; // La habitacion está reservada en el intervalo de fechas, se omite
 
-                    // Verificar si la cantidad de personas es menor o igual al límite de la habitación
+                    // Verificar si la cantidad de personas es menor o igual al límite de la habitacion
                     if (cantidadPersonas <= limitePersonas)
                     {
                         Clases.HabitacionCheckOut habitacion = new Clases.HabitacionCheckOut()
@@ -579,7 +648,34 @@ namespace PIA___AAVD
         }
 
 
+        public void insertReserva(int codigoreservacion, string fechainicio, string fechafin,string servutilizados, float costoservicio, string metodopago,
+            float descuento,  float anticipo, string numerofactura, int cantidadpersonas, bool checkin, bool checkout)
+        {
+            var Err = false;
+            try
+            {
+                conectar();
+                string query = String.Format("INSERT INTO reserva (codigoreservacion, fechainicio, fechafin, servutilizados, costoservicio, metodopago, " +
+                    "descuento, anticipo, numerofactura, cantidadpersonas, checkin, checkout)\r\n");
+                query += String.Format("VALUES ({0}, '{1}', '{2}', '{3}', {4}, '{5}', {6}, {7}, '{8}', {9}, {10}, {11})",
+                    codigoreservacion, fechainicio, fechafin, servutilizados, costoservicio, metodopago, descuento,
+                    anticipo, numerofactura, cantidadpersonas, checkin, checkout);
 
+                _session.Execute(query);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+                Err = true;
+                throw e;
+            }
+            finally
+            {
+                desconectar();
+            }
+
+
+        }
 
 
         #region CLIENTES
