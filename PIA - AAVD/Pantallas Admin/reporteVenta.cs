@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PIA___AAVD;
 using PIA___MAD.Pantallas;
 using PIA___MAD.SQL_Conexion;
 using static PIA___MAD.Clases;
@@ -37,7 +38,8 @@ namespace PIA___MAD.Pantallas_Admin
 
         private void btnFiltroHotel_Click(object sender, EventArgs e)
         {
-            ConexionSQL conexionSQL = new ConexionSQL();
+            EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+            List<Clases.Hotel> hotelTabla = new List<Clases.Hotel>();
             var Err = false; // SI no hay error
             try
             {
@@ -47,8 +49,28 @@ namespace PIA___MAD.Pantallas_Admin
                 if (filtroSeleccionado == "Pais")
                 {
                     string pais = Convert.ToString(txtFiltro.Text);
-                    DataTable dt = conexionSQL.FiltrarHotelesPorPais(pais);
-                    dataGridView1.DataSource = dt;
+                    hotelTabla = enlace.GetHotelesPais(pais);
+                    // Crear un BindingSource para filtrar y proyectar los datos
+                    BindingSource bindingSource = new BindingSource();
+                    bindingSource.DataSource = hotelTabla;
+
+                    // Crear una nueva lista con los datos filtrados y proyectados
+                    List<object> data = new List<object>();
+                    foreach (Clases.Hotel hotel in hotelTabla)
+                    {
+                        // Agregar los datos deseados a la lista
+                        data.Add(new
+                        {
+                            idhotel = hotel.idhotel,
+                            NombreHotel = hotel.nombre_hotel,
+                            CiudadHotel = hotel.ciudadHotel,
+                            AñoRegistro = Convert.ToDateTime(hotel.fechaRegistro).Year,
+                            MesRegistro = Convert.ToDateTime(hotel.fechaRegistro).Month
+                        });
+                    }
+
+                    // Asignar la lista filtrada y proyectada como origen de datos del DataGridView
+                    dataGridView1.DataSource = new BindingSource { DataSource = data };
                     if (dgvReporte.DataSource != null)
                     {
                         dgvReporte.DataSource = null;
@@ -60,8 +82,28 @@ namespace PIA___MAD.Pantallas_Admin
                 if (filtroSeleccionado == "Año")
                 {
                     int anio = Convert.ToInt32(txtFiltro.Text);
-                    DataTable dt = conexionSQL.FiltrarHotelesPorAnioRegistro(anio);
-                    dataGridView1.DataSource = dt;
+                    hotelTabla = enlace.GetHotelesAnio(anio);
+                    // Crear un BindingSource para filtrar y proyectar los datos
+                    BindingSource bindingSource = new BindingSource();
+                    bindingSource.DataSource = hotelTabla;
+
+                    // Crear una nueva lista con los datos filtrados y proyectados
+                    List<object> data = new List<object>();
+                    foreach (Clases.Hotel hotel in hotelTabla)
+                    {
+                        // Agregar los datos deseados a la lista
+                        data.Add(new
+                        {
+                            idhotel = hotel.idhotel,
+                            NombreHotel = hotel.nombre_hotel,
+                            CiudadHotel = hotel.ciudadHotel,
+                            AñoRegistro = Convert.ToDateTime(hotel.fechaRegistro).Year,
+                            MesRegistro = Convert.ToDateTime(hotel.fechaRegistro).Month
+                        });
+                    }
+
+                    // Asignar la lista filtrada y proyectada como origen de datos del DataGridView
+                    dataGridView1.DataSource = new BindingSource { DataSource = data };
                     if (dgvReporte.DataSource != null)
                     {
                         dgvReporte.DataSource = null;
@@ -73,8 +115,28 @@ namespace PIA___MAD.Pantallas_Admin
                 if (filtroSeleccionado == "Ciudad")
                 {
                     string ciudad = Convert.ToString(txtFiltro.Text);
-                    DataTable dt = conexionSQL.FiltrarHotelesPorCiudad(ciudad);
-                    dataGridView1.DataSource = dt;
+                    hotelTabla = enlace.GetHotelesCiudad(ciudad);
+                    // Crear un BindingSource para filtrar y proyectar los datos
+                    BindingSource bindingSource = new BindingSource();
+                    bindingSource.DataSource = hotelTabla;
+
+                    // Crear una nueva lista con los datos filtrados y proyectados
+                    List<object> data = new List<object>();
+                    foreach (Clases.Hotel hotel in hotelTabla)
+                    {
+                        // Agregar los datos deseados a la lista
+                        data.Add(new
+                        {
+                            idhotel = hotel.idhotel,
+                            NombreHotel = hotel.nombre_hotel,
+                            CiudadHotel = hotel.ciudadHotel,
+                            AñoRegistro = Convert.ToDateTime(hotel.fechaRegistro).Year,
+                            MesRegistro = Convert.ToDateTime(hotel.fechaRegistro).Month
+                        });
+                    }
+
+                    // Asignar la lista filtrada y proyectada como origen de datos del DataGridView
+                    dataGridView1.DataSource = new BindingSource { DataSource = data };
                     if (dgvReporte.DataSource != null)
                     {
                         dgvReporte.DataSource = null;
@@ -86,8 +148,28 @@ namespace PIA___MAD.Pantallas_Admin
                 if (filtroSeleccionado == "Hotel")
                 {
                     string hotel = Convert.ToString(txtFiltro.Text);
-                    DataTable dt = conexionSQL.FiltrarHotelesPorNombre(hotel);
-                    dataGridView1.DataSource = dt;
+                    hotelTabla = enlace.GetHotelesNombre(hotel);
+                    // Crear un BindingSource para filtrar y proyectar los datos
+                    BindingSource bindingSource = new BindingSource();
+                    bindingSource.DataSource = hotelTabla;
+
+                    // Crear una nueva lista con los datos filtrados y proyectados
+                    List<object> data = new List<object>();
+                    foreach (Clases.Hotel hotelP3 in hotelTabla)
+                    {
+                        // Agregar los datos deseados a la lista
+                        data.Add(new
+                        {
+                            idhotel = hotelP3.idhotel,
+                            NombreHotel = hotelP3.nombre_hotel,
+                            CiudadHotel = hotelP3.ciudadHotel,
+                            AñoRegistro = Convert.ToDateTime(hotelP3.fechaRegistro).Year,
+                            MesRegistro = Convert.ToDateTime(hotelP3.fechaRegistro).Month
+                        });
+                    }
+
+                    // Asignar la lista filtrada y proyectada como origen de datos del DataGridView
+                    dataGridView1.DataSource = new BindingSource { DataSource = data };
                     if (dgvReporte.DataSource != null)
                     {
                         dgvReporte.DataSource = null;
@@ -113,7 +195,7 @@ namespace PIA___MAD.Pantallas_Admin
                 DataGridViewRow hotelSeleccionado = dataGridView1.SelectedRows[0];
 
                 // Obtener los valores de las celdas de la fila seleccionada
-                strHotel = hotelSeleccionado.Cells["idHotel"].Value.ToString();
+                strHotel = hotelSeleccionado.Cells["idhotel"].Value.ToString();
             }
 
             if (strHotel == null)
@@ -127,22 +209,19 @@ namespace PIA___MAD.Pantallas_Admin
 
             // Obtener los meses por hotel desde la base de datos
             List<ReporteVentas> listaReportes = new List<ReporteVentas>();
-            mesesTabla = new DataTable();
-            ConexionSQL conexionSQL = new ConexionSQL();
-            mesesTabla = conexionSQL.ObtenerMesesPorHotel(hotelID);
+            EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+            List<int> mesesPorHotel = enlace.ObtenerMesesPorHotel(hotelID);
 
-            foreach (DataRow row in mesesTabla.Rows)
+            foreach (int mes in mesesPorHotel)
             {
-                int mes = Convert.ToInt32(row["NumeroMes"]);
-
                 // Crear un nuevo objeto ReporteVentas para almacenar los datos del mes actual
                 ReporteVentas reporte = new ReporteVentas();
                 reporte.Mes = mes;
 
                 // Calcular los ingresos por hospedaje utilizando la función CalcularIngresosPorReserva
-                reporte.IngresosHospedaje = conexionSQL.CalcularIngresosPorReserva(hotelID, mes);
+                reporte.IngresosHospedaje = enlace.CalcularIngresosPorReserva(hotelID, mes);
                 // Calcular los ingresos por servicios adicionales utilizando la función SumarPorMesYVariable
-                reporte.IngresosServiciosAd = conexionSQL.ObtenerSumaCostoServicio(hotelID, mes);
+                reporte.IngresosServiciosAd = enlace.ObtenerSumaCostoServicio(hotelID, mes);
 
                 reporte.IngresosTotales = reporte.IngresosHospedaje + reporte.IngresosServiciosAd;
 

@@ -328,9 +328,9 @@
             // panelOpenForm
             // 
             this.panelOpenForm.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.panelOpenForm.Location = new System.Drawing.Point(642, 8);
+            this.panelOpenForm.Location = new System.Drawing.Point(693, 0);
             this.panelOpenForm.Name = "panelOpenForm";
-            this.panelOpenForm.Size = new System.Drawing.Size(124, 68);
+            this.panelOpenForm.Size = new System.Drawing.Size(74, 67);
             this.panelOpenForm.TabIndex = 161;
             this.panelOpenForm.Visible = false;
             // 

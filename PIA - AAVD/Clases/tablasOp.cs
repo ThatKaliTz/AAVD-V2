@@ -25,15 +25,16 @@ namespace PIA___MAD
     public class datosCheckOut
     {
         public int hotelID { get; set; }
-        public int checkOut { get; set; }
+        public bool checkOut { get; set; }
         public int cantidadPersonas { get; set; }
         public DateTime fechaInicio { get; set; }
         public DateTime fechaFin { get; set; }
-        public Guid codigoReservacion { get; set; }
+        public int codigoReservacion { get; set; }
         public float anticipo { get; set; }
         public string servUtilizados { get; set; }
         public float costoServicio { get; set; }
         public string metodoPago { get; set; }
+        public int idhabitacion { get; set; }
 
     }
 

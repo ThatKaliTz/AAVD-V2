@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PIA___AAVD;
 using PIA___MAD.Pantallas;
 using PIA___MAD.SQL_Conexion;
 using static PIA___MAD.Clases;
@@ -17,7 +18,7 @@ namespace PIA___MAD.Pantallas_Admin
     {
 
         private string strHotel;
-       
+
 
         public reporteOcupacion()
         {
@@ -41,18 +42,18 @@ namespace PIA___MAD.Pantallas_Admin
 
         private void btnFiltroHotel_Click(object sender, EventArgs e)
         {
-            ConexionSQL conexionSQL = new ConexionSQL();
-            DataTable hotelTabla = new DataTable();
+            EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+            List<Clases.Hotel> hotelTabla = new List<Clases.Hotel>();
             var Err = false; // SI no hay error
             try
             {
                 // Convertir los datos de los textBoxs
                 string filtroSeleccionado = cbFiltroHotel.SelectedItem.ToString();
-                
+
                 if (filtroSeleccionado == "Pais")
                 {
                     string pais = Convert.ToString(txtFiltro.Text);
-                    hotelTabla = conexionSQL.ocupFiltrarHotelesPorPais(pais);
+                    hotelTabla = enlace.GetHotelesPais(pais);
                     if (dgvReporte.DataSource != null)
                     {
                         dgvReporte.DataSource = null;
@@ -64,7 +65,7 @@ namespace PIA___MAD.Pantallas_Admin
                 if (filtroSeleccionado == "Año")
                 {
                     int anio = Convert.ToInt32(txtFiltro.Text);
-                    hotelTabla = conexionSQL.ocupFiltrarHotelesPorAnioRegistro(anio);
+                    hotelTabla = enlace.GetHotelesAnio(anio);
                     if (dgvReporte.DataSource != null)
                     {
                         dgvReporte.DataSource = null;
@@ -76,7 +77,7 @@ namespace PIA___MAD.Pantallas_Admin
                 if (filtroSeleccionado == "Ciudad")
                 {
                     string ciudad = Convert.ToString(txtFiltro.Text);
-                    hotelTabla = conexionSQL.ocupFiltrarHotelesPorCiudad(ciudad);
+                    hotelTabla = enlace.GetHotelesCiudad(ciudad);
                     if (dgvReporte.DataSource != null)
                     {
                         dgvReporte.DataSource = null;
@@ -88,7 +89,7 @@ namespace PIA___MAD.Pantallas_Admin
                 if (filtroSeleccionado == "Hotel")
                 {
                     string hotel = Convert.ToString(txtFiltro.Text);
-                    hotelTabla = conexionSQL.ocupFiltrarHotelesPorNombre(hotel);
+                    hotelTabla = enlace.GetHotelesNombre(hotel);
                     if (dgvReporte.DataSource != null)
                     {
                         dgvReporte.DataSource = null;
@@ -100,21 +101,20 @@ namespace PIA___MAD.Pantallas_Admin
                 // Agregar columnas faltantes
                 List<HotelInfo> listaHotel = new List<HotelInfo>();
 
-                foreach (DataRow row in hotelTabla.Rows)
+                foreach (var hotel in hotelTabla)
                 {
-                    int idHotel = Convert.ToInt32(row["idHotel"]);
+                    int idHotel = hotel.idhotel;
 
-                    HotelInfo hotel = new HotelInfo();
-                    hotel.idHotel = idHotel;
-                    hotel.nombreHotel = Convert.ToString(row["nombreHotel"]);
-                    hotel.ciudadHotel = Convert.ToString(row["ciudadHotel"]);
-                    hotel.anioRegistro = Convert.ToInt32(row["Anio"]);
-                    hotel.mesRegistro = Convert.ToInt32(row["Mes"]);
+                    HotelInfo hotelInfo = new HotelInfo();
+                    hotelInfo.idHotel = idHotel;
+                    hotelInfo.nombreHotel = hotel.nombre_hotel;
+                    hotelInfo.ciudadHotel = hotel.ciudadHotel;
+                    // Resto del código para asignar valores a hotelInfo
 
-                    int limitePersonas = conexionSQL.ObtenerLimitePersonasPorHotel(idHotel);
+                    int limitePersonas = enlace.ObtenerLimitePersonasPorHotel(idHotel);
 
                     // Obtener la cantidad de personas hospedadas por hotel
-                    int cantidadPersonasHospedadas = conexionSQL.ObtenerCantidadPersonasReservadasPorHotel(idHotel);
+                    int cantidadPersonasHospedadas = enlace.ObtenerCantidadPersonasReservadas(idHotel);
 
                     // Calcular el porcentaje de ocupación
                     double porcentajeOcupacion, porcentajeOcupacionRedondeado;
@@ -125,16 +125,17 @@ namespace PIA___MAD.Pantallas_Admin
                         porcentajeOcupacionRedondeado = Math.Round(porcentajeOcupacion, 2);
                     }
                     else
+                    {
                         porcentajeOcupacionRedondeado = 0.0;
+                    }
 
-                    // Asignar los valores calculados al objeto hotelTabla}
-                    hotel.limitePersonas = limitePersonas;
-                    hotel.cantidadPersonasHospedadas = cantidadPersonasHospedadas;
-                    hotel.porcentajeOcupacion = porcentajeOcupacionRedondeado;
+                    // Asignar los valores calculados a hotelInfo
+                    hotelInfo.limitePersonas = limitePersonas;
+                    hotelInfo.cantidadPersonasHospedadas = cantidadPersonasHospedadas;
+                    hotelInfo.porcentajeOcupacion = porcentajeOcupacionRedondeado;
 
-
-                    // Agregar el objeto HotelInfo a la lista
-                    listaHotel.Add(hotel);
+                    // Agregar el objeto hotelInfo a la lista
+                    listaHotel.Add(hotelInfo);
                 }
 
                 // Asignar la lista de reportes como origen de datos del DataGridView
@@ -168,10 +169,9 @@ namespace PIA___MAD.Pantallas_Admin
             }
 
             int hotelID = Convert.ToInt32(strHotel);
-
-            ConexionSQL conexionSQL = new ConexionSQL();
-            DataTable habitacionTabla = conexionSQL.ObtenerDispoOcupHabitaciones(hotelID);
-            dgvReporte.DataSource = habitacionTabla;
+            EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+            List<Clases.ResumenTipoHabitacion> resumenTipoHabitacion = enlace.ObtenerResumenTipoHabitacion(hotelID);
+            dgvReporte.DataSource = resumenTipoHabitacion;
         }
     }
 }

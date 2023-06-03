@@ -33,8 +33,7 @@ namespace PIA___MAD
         public int idHotel { get; set; }
         public string ciudadHotel { get; set; }
         public string nombreHotel { get; set; }
-        public int anioRegistro { get; set; }
-        public int mesRegistro { get; set; }
+
         public int cantidadPersonasHospedadas { get; set; }
         public int limitePersonas { get; set; }
         public double porcentajeOcupacion { get; set; }

@@ -111,8 +111,8 @@ namespace PIA___MAD.Pantallas_Operativo
                 TimeSpan horaRegistro = DateTime.Now.TimeOfDay;
                 bool checkin = false;
                 bool checkout = false;
-                enlace.insertReserva(codigoReservacion, fechaFin.ToString("yyyy-MM-dd"), fechaFin.ToString("yyyy-MM-dd"), servUtilizados, costoServicio,
-                    MetodoPago, descuento, Anticipo, numeroFactura, cantidadPersonas, checkin, checkout);
+                enlace.insertReserva(codigoReservacion, fechaInicio.ToString("yyyy-MM-dd"), fechaFin.ToString("yyyy-MM-dd"), servUtilizados, costoServicio,
+                    MetodoPago, descuento, Anticipo, numeroFactura, cantidadPersonas, checkin, checkout, idHabitacion, reservID.ClienteRFC);
             }
             catch (Exception ex)
             {

@@ -48,8 +48,8 @@ namespace PIA___MAD.Pantallas_Operativo
                 DataGridViewRow hotelSeleccionado = dataGridView2.SelectedRows[0];
 
                 // Obtener los valores de las celdas de la fila seleccionada
-                reservID.ClienteRFC = clienteSeleccionado.Cells["RFC"].Value.ToString();
-                reservID.HotelID = hotelSeleccionado.Cells["idHotel"].Value.ToString();
+                reservID.ClienteRFC = clienteSeleccionado.Cells["rfc"].Value.ToString();
+                reservID.HotelID = hotelSeleccionado.Cells["idhotel"].Value.ToString();
             }
 
 

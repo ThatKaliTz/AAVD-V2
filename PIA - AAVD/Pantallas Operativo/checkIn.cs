@@ -1,4 +1,5 @@
-﻿using PIA___MAD.SQL_Conexion;
+﻿using PIA___AAVD;
+using PIA___MAD.SQL_Conexion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,9 +21,10 @@ namespace PIA___MAD.Pantallas_Operativo
 
         private void checkIn_Load(object sender, EventArgs e)
         {
+            EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+
             this.FormClosed += new FormClosedEventHandler(exitApp);
-            ConexionSQL conexionSQL = new ConexionSQL();
-            conexionSQL.ActualizarCheckIn();
+            enlace.actualizarCheckIn();
         }
    
 
@@ -33,22 +35,24 @@ namespace PIA___MAD.Pantallas_Operativo
 
         private void btnBuscarReservacion_Click(object sender, EventArgs e)
         {
+
+            EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+
             string codigoReserv = Convert.ToString(txtCodigoReserv.Text);
-            Guid codigoReservacion = Guid.Parse(codigoReserv);
 
             //Si no introdujo nada
-            if (codigoReservacion == Guid.Empty)
+            if (codigoReserv == null)
             {
                 MessageBox.Show("Ingrese los datos correctamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            ConexionSQL conexionSQL = new ConexionSQL();
+
 
             try
             {
-                DataTable dt = conexionSQL.ObtenerCheckIn(codigoReservacion);
-                dataGridView1.DataSource = dt;
+                //DataTable dt = conexionSQL.ObtenerCheckIn(codigoReserv);
+                //dataGridView1.DataSource = dt;
 
             }
             catch (Exception ex)

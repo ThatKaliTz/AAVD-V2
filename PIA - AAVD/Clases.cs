@@ -122,12 +122,6 @@ namespace PIA___MAD
 
         }
 
-        public class HabitacionCheckOut
-        {
-            public int IdHabitacion { get; set; }
-            public string NombreTipo { get; set; }
-            public int LimitePersonas { get; set; }
-        }
 
         public class ResumenTipoHabitacion
         {
@@ -135,6 +129,14 @@ namespace PIA___MAD
             public int Cantidad { get; set; }
             public int Disponibles { get; set; }
             public int Ocupadas { get; set; }
+        }
+
+
+        public class HabitacionCheckOut
+        {
+            public int IdHabitacion { get; set; }
+            public string NombreTipo { get; set; }
+            public int LimitePersonas { get; set; }
         }
     }
 }
