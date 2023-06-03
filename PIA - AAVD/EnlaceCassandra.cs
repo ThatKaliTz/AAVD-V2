@@ -658,17 +658,17 @@ namespace PIA___AAVD
 
 
         public void insertReserva(int codigoreservacion, string fechainicio, string fechafin,string servutilizados, float costoservicio, string metodopago,
-            float descuento,  float anticipo, string numerofactura, int cantidadpersonas, bool checkin, bool checkout, int idhabitacion, string idcliente)
+            float descuento,  float anticipo, string numerofactura, int cantidadpersonas, bool checkin, bool checkout, int idhabitacion, string idcliente, string usuarioreserva)
         {
             var Err = false;
             try
             {
                 conectar();
                 string query = String.Format("INSERT INTO reserva (codigoreservacion, fechainicio, fechafin, servutilizados, costoservicio, metodopago, " +
-                    "descuento, anticipo, numerofactura, cantidadpersonas, checkin, checkout, idhabitacion, idcliente)\r\n");
-                query += String.Format("VALUES ({0}, '{1}', '{2}', '{3}', {4}, '{5}', {6}, {7}, '{8}', {9}, {10}, {11}, {12}, '{13}')",
+                    "descuento, anticipo, numerofactura, cantidadpersonas, checkin, checkout, idhabitacion, idcliente, usuarioreserva)\r\n");
+                query += String.Format("VALUES ({0}, '{1}', '{2}', '{3}', {4}, '{5}', {6}, {7}, '{8}', {9}, {10}, {11}, {12}, '{13}', '{14}')",
                     codigoreservacion, fechainicio, fechafin, servutilizados, costoservicio, metodopago, descuento,
-                    anticipo, numerofactura, cantidadpersonas, checkin, checkout, idhabitacion, idcliente);
+                    anticipo, numerofactura, cantidadpersonas, checkin, checkout, idhabitacion, idcliente, usuarioreserva);
 
                 _session.Execute(query);
             }
@@ -1627,13 +1627,113 @@ namespace PIA___AAVD
 
         // Aca
 
+        public void ActualizarCheckin()
+        {
+            try
+            {
+                conectar();
+
+                // 1. Seleccionar codigoreservacion, fechainicio, checkin de la tabla reserva
+                string query = @"SELECT codigoreservacion, fechainicio, checkin FROM reserva  ALLOW FILTERING";
+                RowSet result = _session.Execute(query);
+
+                foreach (Row row in result)
+                {
+                    int codigoreservacion = row.GetValue<int>("codigoreservacion");
+                    LocalDate fechainicioLD = row.GetValue<LocalDate>("fechainicio");
+                    DateTime fechainicio = new DateTime(fechainicioLD.Year, fechainicioLD.Month, fechainicioLD.Day);
+
+                    bool checkin = row.GetValue<bool>("checkin");
+
+                    // 2. Verificar si el checkin es false y si la fechainicio es igual o menor que el dÃ­a actual
+                    if (!checkin && fechainicio <= DateTime.Now.Date)
+                    {
+                        // 3. Actualizar el checkin a true en la tabla reserva
+                        string updateQuery = $"UPDATE reserva SET checkin = true WHERE codigoreservacion = {codigoreservacion}";
+                        _session.Execute(updateQuery);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+                throw e;
+            }
+            finally
+            {
+                desconectar();
+            }
+        }
 
 
 
 
 
+        public DataTable cObtenerReservas()
+        {
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                conectar();
+                string query = "SELECT codigoreservacion, usuarioreserva, idhabitacion  FROM reserva WHERE fechainicio > '2023-06-06' ALLOW FILTERING";
+                RowSet result = _session.Execute(query);
 
 
+                dataTable.Columns.Add("codigoreservacion");
+                dataTable.Columns.Add("usuarioreserva");
+                dataTable.Columns.Add("idhabitacion");
+
+
+                foreach (Row row in result)
+                {
+                    DataRow dataRow = dataTable.NewRow();
+                    dataRow["codigoreservacion"] = row.GetValue<int>("codigoreservacion");
+                    dataRow["usuarioreserva"] = row.GetValue<string>("usuarioreserva");
+                    dataRow["idhabitacion"] = row.GetValue<int>("idhabitacion");
+                    dataTable.Rows.Add(dataRow);
+                
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+                throw e;
+            }
+            finally
+            {
+                desconectar();
+            }
+
+            return dataTable;
+        }
+
+        public void rEliminarReservas(int codigo)
+        {
+            try
+            {
+                conectar();
+
+                string query = $@"delete from reserva where codigoreservacion = {codigo}";
+
+                _session.Execute(query);
+
+
+
+
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+                throw e;
+            }
+            finally
+            {
+                desconectar();
+
+            }
+        }
 
 
 

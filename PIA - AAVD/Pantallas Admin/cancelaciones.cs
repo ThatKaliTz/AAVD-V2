@@ -1,4 +1,7 @@
-﻿using System;
+﻿using PIA___AAVD;
+using PIA___MAD.Pantallas_Admin;
+using PIA___MAD.SQL_Conexion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using static PIA___MAD.Clases;
 using PIA___MAD.Pantallas;
 using PIA___MAD.SQL_Conexion;
 
@@ -23,9 +26,11 @@ namespace PIA___MAD.Pantallas_Admin
 
         private void cancelaciones_Load(object sender, EventArgs e)
         {
+            EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+
             this.FormClosed += new FormClosedEventHandler(exitApp);
-            ConexionSQL conexionSQL = new ConexionSQL();
-            DataTable dt = conexionSQL.cObtenerReservas();
+            DataTable dt = enlace.cObtenerReservas();
+
             dgvReserva.DataSource = dt;
         }
 
@@ -45,18 +50,23 @@ namespace PIA___MAD.Pantallas_Admin
         private void btnEliminarReserv_Click(object sender, EventArgs e)
         {
             var Err = false; // SI no hay error
-            ConexionSQL conexionSQL = new ConexionSQL();
             try
             {
+                EnlaceCassandra enlace = EnlaceCassandra.getInstance();
+
                 // Convertir los datos de los textBoxs
-                string codigoBuscado = Convert.ToString(txtCodigoReservacion.Text);
+                int codigoBuscado = Convert.ToInt32(txtCodigoReservacion.Text);
             
                 // Enviar los datos a la base de datos mediante el Table Adapter
                 if (codigoBuscado != null)
                 {
-                    Guid idReserva = Guid.Parse(codigoBuscado);
-                    conexionSQL.cEliminarReserva(idReserva);
+
+                    
+                    enlace.rEliminarReservas(codigoBuscado);
                     limpiarTextBox();
+                    DataTable dt = enlace.cObtenerReservas();
+
+                    dgvReserva.DataSource = dt;
                 }
                 else
                     MessageBox.Show("Seleccione los datos correctamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);

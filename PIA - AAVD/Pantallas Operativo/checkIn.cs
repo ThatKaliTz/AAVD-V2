@@ -14,6 +14,8 @@ namespace PIA___MAD.Pantallas_Operativo
 {
     public partial class checkIn : Form
     {
+        public static List<Clases.Reserva> reservaBuscada;
+
         public checkIn()
         {
             InitializeComponent();
@@ -22,11 +24,11 @@ namespace PIA___MAD.Pantallas_Operativo
         private void checkIn_Load(object sender, EventArgs e)
         {
             EnlaceCassandra enlace = EnlaceCassandra.getInstance();
-
+            enlace.ActualizarCheckin();
             this.FormClosed += new FormClosedEventHandler(exitApp);
-            enlace.actualizarCheckIn();
+
         }
-   
+
 
         private void exitApp(object sender, EventArgs e)
         {
@@ -47,12 +49,12 @@ namespace PIA___MAD.Pantallas_Operativo
                 return;
             }
 
-
+            int codigoReservacion = Convert.ToInt32(codigoReserv);
 
             try
             {
-                //DataTable dt = conexionSQL.ObtenerCheckIn(codigoReserv);
-                //dataGridView1.DataSource = dt;
+                reservaBuscada = enlace.BuscarReservaPorCodigo(codigoReservacion);
+                dataGridView1.DataSource = reservaBuscada;
 
             }
             catch (Exception ex)

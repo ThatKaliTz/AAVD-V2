@@ -105,6 +105,7 @@ namespace PIA___MAD.Pantallas_Operativo
                 float costoServicio = Convert.ToSingle(txtCostoServicio.Text);
                 string numeroFactura = Convert.ToString(txtNumeroFactura.Text);
                 string MetodoPago = cbMetodoPago.SelectedItem.ToString();
+                string usuario = Validaciones.usuario;
                 int cantidadPersonas = Convert.ToInt16(txtCantidad.Text);
                 int hotelID = Convert.ToInt16(reservID.HotelID);
                 DateTime fechaRegistro = DateTime.Now.Date;
@@ -112,7 +113,7 @@ namespace PIA___MAD.Pantallas_Operativo
                 bool checkin = false;
                 bool checkout = false;
                 enlace.insertReserva(codigoReservacion, fechaInicio.ToString("yyyy-MM-dd"), fechaFin.ToString("yyyy-MM-dd"), servUtilizados, costoServicio,
-                    MetodoPago, descuento, Anticipo, numeroFactura, cantidadPersonas, checkin, checkout, idHabitacion, reservID.ClienteRFC);
+                    MetodoPago, descuento, Anticipo, numeroFactura, cantidadPersonas, checkin, checkout, idHabitacion, reservID.ClienteRFC, Validaciones.usuario);
             }
             catch (Exception ex)
             {
