@@ -1,4 +1,4 @@
-﻿namespace PIA___MAD.Pantallas
+﻿namespace PIA___AAVD.Pantallas
 {
     partial class regHoteles
     {

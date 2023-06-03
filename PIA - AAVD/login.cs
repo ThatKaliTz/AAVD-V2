@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using PIA___AAVD;
-using PIA___MAD;
-using PIA___MAD.Pantallas_Operativo;
-using PIA___MAD.SQL_Conexion;
+using PIA___AAVD;
+using PIA___AAVD.Pantallas_Operativo;
 
-namespace PIA___MAD
+
+namespace PIA___AAVD
 {
     public partial class login : Form
     {

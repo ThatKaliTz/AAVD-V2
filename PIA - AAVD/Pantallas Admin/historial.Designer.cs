@@ -1,4 +1,4 @@
-﻿namespace PIA___MAD.Pantallas_Admin
+﻿namespace PIA___AAVD.Pantallas_Admin
 {
     partial class historial
     {

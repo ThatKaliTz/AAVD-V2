@@ -1,4 +1,4 @@
-﻿using PIA___MAD.Pantallas;
+﻿using PIA___AAVD.Pantallas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,13 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PIA___MAD.Pantallas_Admin;
-using PIA___MAD;
-using PIA___MAD.SQL_Conexion;
+using PIA___AAVD.Pantallas_Admin;
+using PIA___AAVD;
+
 using Cassandra.Data.Linq;
 using PIA___AAVD;
 
-namespace PIA___MAD
+namespace PIA___AAVD
 {
     public partial class regUsuario : Form
     {
@@ -75,8 +75,7 @@ namespace PIA___MAD
                 string Estado = Convert.ToString(txtEstado.Text);
                 string fechaNacim = dtpNacimiento.Value.Date.ToString("yyyy-MM-dd");
                 string Telefono = Convert.ToString(txtTelefono.Text);
-                //conexionSQL.registrarUsuario(correoElec, Nombre, apPat, apMat,
-                //    Contrasenia, Calle, Colonia, Municipio, Estado, Telefono, dtpNacimiento.Value.Date, numNomina);
+
 
                 string Domicilio = Calle + " " + Colonia + " " + Municipio + " " + Estado;
 

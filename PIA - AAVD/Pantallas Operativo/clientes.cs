@@ -1,5 +1,4 @@
-﻿using PIA___MAD.SQL_Conexion;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PIA___MAD;
+using PIA___AAVD;
 using PIA___AAVD;
 
-namespace PIA___MAD.Pantallas_Operativo
+namespace PIA___AAVD.Pantallas_Operativo
 {
 
     public partial class btnRegistrarCliente : Form
@@ -61,8 +60,7 @@ namespace PIA___MAD.Pantallas_Operativo
 
                 enlace.insertClientes(RFC,Nombre,ApellidoP,ApellidoM,Domicilio,Correo,Referencia,Telefono,Nacimiento,EstadoCivil,   
                     FechaGestion,HoraGestion);
-                //conexionSQL.registarCliente(RFC, Nombre, ApellidoP, ApellidoM, Correo, Referencia, 
-                //    EstadoCivil, Calle, Colonia, Municipio, Estado, Telefono, Nacimiento);
+
 
                 txtNombre.Clear();
                 txtApellidoP.Clear();

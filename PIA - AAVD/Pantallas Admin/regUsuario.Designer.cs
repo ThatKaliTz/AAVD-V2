@@ -1,4 +1,4 @@
-﻿namespace PIA___MAD
+﻿namespace PIA___AAVD
 {
     partial class regUsuario
     {

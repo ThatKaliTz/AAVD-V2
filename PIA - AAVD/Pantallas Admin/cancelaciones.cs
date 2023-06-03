@@ -1,6 +1,5 @@
 ﻿using PIA___AAVD;
-using PIA___MAD.Pantallas_Admin;
-using PIA___MAD.SQL_Conexion;
+using PIA___AAVD.Pantallas_Admin;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,11 +9,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static PIA___MAD.Clases;
-using PIA___MAD.Pantallas;
-using PIA___MAD.SQL_Conexion;
+using static PIA___AAVD.Clases;
+using PIA___AAVD.Pantallas;
 
-namespace PIA___MAD.Pantallas_Admin
+
+namespace PIA___AAVD.Pantallas_Admin
 {
     public partial class cancelaciones : Form
     {
@@ -42,9 +41,6 @@ namespace PIA___MAD.Pantallas_Admin
         private void limpiarTextBox()
         {
             txtCodigoReservacion.Clear();
-            ConexionSQL conexionSQL = new ConexionSQL();
-            DataTable dt = conexionSQL.cObtenerReservas();
-            dgvReserva.DataSource = dt;
         }
 
         private void btnEliminarReserv_Click(object sender, EventArgs e)

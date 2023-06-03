@@ -170,33 +170,8 @@ C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA - MAD.exe
 C:\Users\Rogelio\Downloads\AAVD_PIA\AAVD\PIA - AAVD\obj\Debug\PIA - MAD.pdb
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.AssemblyReference.cache
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.SuggestedBindingRedirects.cache
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Admin.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.login.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Operativo.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.regUsuario.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.cancelaciones.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.historial.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas.regHoteles.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.rehabilitarUsuario.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteOcupacion.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.reporteVenta.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Admin.regHabitacion.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkIn.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.checkOut.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.btnRegistrarCliente.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.pedirContraseña.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservaciones.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Pantallas_Operativo.reservacionesHabitaciones.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.Properties.Resources.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.regTipoHab.resources
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___MAD.registrarUsuario.resources
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.GenerateResource.cache
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CoreCompileInputs.cache
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.exe
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.pdb
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\PIA - MAD.exe.config
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\PIA - MAD.exe
-C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\PIA - MAD.pdb
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Cassandra.dll
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\K4os.Compression.LZ4.dll
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -220,3 +195,28 @@ C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Nume
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\System.Threading.Tasks.Dataflow.xml
 C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - MAD.csproj.CopyComplete
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Admin.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.login.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Operativo.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.regUsuario.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.cancelaciones.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.historial.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas.regHoteles.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.rehabilitarUsuario.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.reporteOcupacion.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.reporteVenta.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Admin.regHabitacion.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.checkIn.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.checkOut.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.btnRegistrarCliente.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.pedirContraseña.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.reservaciones.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Pantallas_Operativo.reservacionesHabitaciones.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.regTipoHab.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.registrarUsuario.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\PIA - AAVD.exe.config
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\PIA - AAVD.exe
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\bin\Debug\PIA - AAVD.pdb
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA___AAVD.Properties.Resources.resources
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - AAVD.exe
+C:\Users\Rogelio\source\repos\PIA-AAVD-(ESTESI)\PIA - AAVD\obj\Debug\PIA - AAVD.pdb

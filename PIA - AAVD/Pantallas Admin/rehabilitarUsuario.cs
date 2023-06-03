@@ -1,4 +1,4 @@
-﻿using PIA___MAD.SQL_Conexion;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PIA___MAD.Pantallas_Admin
+namespace PIA___AAVD.Pantallas_Admin
 {
     public partial class rehabilitarUsuario : Form
     {
@@ -44,21 +44,17 @@ namespace PIA___MAD.Pantallas_Admin
 
         private void rehabilitarUsuario_Load_1(object sender, EventArgs e)
         {
-            ConexionSQL conexionSQL = new ConexionSQL();
 
-            DataTable dt = conexionSQL.viewInhabilitados();
-
-            dgvUsuarioInhabilib.DataSource = dt;
         }
 
         private void Seleccion(object sender, DataGridViewCellMouseEventArgs e)
         {
-            ConexionSQL conexionSQL = new ConexionSQL();
+
 
             int indice = e.RowIndex;
 
             string prueba = dgvUsuarioInhabilib.Rows[indice].Cells[0].Value.ToString();
-            conexionSQL.Habilitar(prueba);
+     
             MessageBox.Show("Prueba", prueba);
 
         }

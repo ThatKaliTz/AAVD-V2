@@ -8,13 +8,13 @@ using Cassandra.Mapping;
 using System.Configuration;
 using System.Windows.Forms;
 using System.Web;
-using PIA___MAD;
-using static PIA___MAD.Clases;
+using PIA___AAVD;
+using static PIA___AAVD.Clases;
 using static System.Collections.Specialized.BitVector32;
 using System.Data;
 using System.Globalization;
 using System.Collections;
-using static PIA___MAD.Conexion.CassandraConexion;
+using static PIA___AAVD.Conexion.CassandraConexion;
 
 namespace PIA___AAVD
 {

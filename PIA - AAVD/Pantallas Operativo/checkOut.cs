@@ -1,5 +1,5 @@
 ﻿using PIA___AAVD;
-using PIA___MAD.SQL_Conexion;
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,10 +9,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static PIA___MAD.Clases;
+using static PIA___AAVD.Clases;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace PIA___MAD.Pantallas_Operativo
+namespace PIA___AAVD.Pantallas_Operativo
 {
     public partial class checkOut : Form
     {
@@ -251,8 +251,7 @@ namespace PIA___MAD.Pantallas_Operativo
         private void checkOut_Load(object sender, EventArgs e)
         {
             this.FormClosed += new FormClosedEventHandler(exitApp);
-            //ConexionSQL conexionSQL = new ConexionSQL();
-            //conexionSQL.ActualizarCheckOut();
+
 
             ocultarTodo();
         }

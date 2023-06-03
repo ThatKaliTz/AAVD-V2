@@ -1,4 +1,4 @@
-﻿using PIA___MAD.SQL_Conexion;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,13 +9,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using PIA___MAD.Pantallas;
-using PIA___MAD.Pantallas_Admin;
-using PIA___MAD.SQL_Conexion;
-using static PIA___MAD.Clases;
+using PIA___AAVD.Pantallas;
+using PIA___AAVD.Pantallas_Admin;
+using static PIA___AAVD.Clases;
 using PIA___AAVD;
 
-namespace PIA___MAD.Pantallas_Admin
+namespace PIA___AAVD.Pantallas_Admin
 {
     public partial class regHabitacion : Form
     {

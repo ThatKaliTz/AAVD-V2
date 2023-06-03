@@ -1,4 +1,4 @@
-﻿namespace PIA___MAD.Pantallas_Operativo
+﻿namespace PIA___AAVD.Pantallas_Operativo
 {
     partial class reservaciones
     {

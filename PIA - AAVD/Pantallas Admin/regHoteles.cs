@@ -9,11 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using PIA___AAVD;
-using PIA___MAD.Pantallas_Admin;
-using PIA___MAD.SQL_Conexion;
-using static PIA___MAD.Clases;
+using PIA___AAVD.Pantallas_Admin;
+using static PIA___AAVD.Clases;
 
-namespace PIA___MAD.Pantallas
+namespace PIA___AAVD.Pantallas
 {
     public partial class regHoteles : Form
     {

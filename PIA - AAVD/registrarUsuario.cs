@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PIA___MAD
+namespace PIA___AAVD
 {
     public partial class registrarUsuario : UserControl
     {

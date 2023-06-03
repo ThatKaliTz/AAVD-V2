@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PIA___MAD
+namespace PIA___AAVD
 {
     internal static class Program
     {

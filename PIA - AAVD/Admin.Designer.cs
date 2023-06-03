@@ -1,4 +1,4 @@
-﻿namespace PIA___MAD
+﻿namespace PIA___AAVD
 {
     partial class Admin
     {
@@ -91,7 +91,7 @@
             this.btnRehabilitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRehabilitar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRehabilitar.ForeColor = System.Drawing.Color.Snow;
-            this.btnRehabilitar.Image = global::PIA___MAD.Properties.Resources.icons8_recovery_301;
+            this.btnRehabilitar.Image = global::PIA___AAVD.Properties.Resources.icons8_recovery_301;
             this.btnRehabilitar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRehabilitar.Location = new System.Drawing.Point(0, 426);
             this.btnRehabilitar.Margin = new System.Windows.Forms.Padding(2);
@@ -111,7 +111,7 @@
             this.btnHistorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistorial.ForeColor = System.Drawing.Color.Snow;
-            this.btnHistorial.Image = global::PIA___MAD.Properties.Resources.icons8_time_machine_30;
+            this.btnHistorial.Image = global::PIA___AAVD.Properties.Resources.icons8_time_machine_30;
             this.btnHistorial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHistorial.Location = new System.Drawing.Point(0, 367);
             this.btnHistorial.Margin = new System.Windows.Forms.Padding(2);
@@ -131,7 +131,7 @@
             this.btnReporteVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporteVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporteVentas.ForeColor = System.Drawing.Color.Snow;
-            this.btnReporteVentas.Image = global::PIA___MAD.Properties.Resources.icons8_profit_report_50;
+            this.btnReporteVentas.Image = global::PIA___AAVD.Properties.Resources.icons8_profit_report_50;
             this.btnReporteVentas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReporteVentas.Location = new System.Drawing.Point(0, 308);
             this.btnReporteVentas.Margin = new System.Windows.Forms.Padding(2);
@@ -151,7 +151,7 @@
             this.btnReporteOcup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReporteOcup.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReporteOcup.ForeColor = System.Drawing.Color.Snow;
-            this.btnReporteOcup.Image = global::PIA___MAD.Properties.Resources.icons8_graph_report_30;
+            this.btnReporteOcup.Image = global::PIA___AAVD.Properties.Resources.icons8_graph_report_30;
             this.btnReporteOcup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReporteOcup.Location = new System.Drawing.Point(0, 249);
             this.btnReporteOcup.Margin = new System.Windows.Forms.Padding(2);
@@ -171,7 +171,7 @@
             this.btnCancelacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelacion.ForeColor = System.Drawing.Color.Snow;
-            this.btnCancelacion.Image = global::PIA___MAD.Properties.Resources.icons8_close_window_24;
+            this.btnCancelacion.Image = global::PIA___AAVD.Properties.Resources.icons8_close_window_24;
             this.btnCancelacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCancelacion.Location = new System.Drawing.Point(0, 190);
             this.btnCancelacion.Margin = new System.Windows.Forms.Padding(2);
@@ -191,7 +191,7 @@
             this.btnHotel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHotel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHotel.ForeColor = System.Drawing.Color.Snow;
-            this.btnHotel.Image = global::PIA___MAD.Properties.Resources.icons8_hotel_star_50;
+            this.btnHotel.Image = global::PIA___AAVD.Properties.Resources.icons8_hotel_star_50;
             this.btnHotel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHotel.Location = new System.Drawing.Point(0, 131);
             this.btnHotel.Margin = new System.Windows.Forms.Padding(2);
@@ -211,7 +211,7 @@
             this.btnUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuario.ForeColor = System.Drawing.Color.Snow;
-            this.btnUsuario.Image = global::PIA___MAD.Properties.Resources.icons8_user_30;
+            this.btnUsuario.Image = global::PIA___AAVD.Properties.Resources.icons8_user_30;
             this.btnUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUsuario.Location = new System.Drawing.Point(0, 72);
             this.btnUsuario.Margin = new System.Windows.Forms.Padding(2);

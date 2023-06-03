@@ -1,6 +1,5 @@
 ﻿using PIA___AAVD;
-using PIA___MAD.Pantallas_Admin;
-using PIA___MAD.SQL_Conexion;
+using PIA___AAVD.Pantallas_Admin;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,9 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static PIA___MAD.Clases;
+using static PIA___AAVD.Clases;
 
-namespace PIA___MAD.Pantallas_Operativo
+namespace PIA___AAVD.Pantallas_Operativo
 {
     public partial class reservaciones : Form
     {
@@ -79,7 +78,7 @@ namespace PIA___MAD.Pantallas_Operativo
 
         private void btnBuscarCliente_Click(object sender, EventArgs e)
         {
-            //ConexionSQL conexionSQL = new ConexionSQL();
+
 
             EnlaceCassandra enlace = EnlaceCassandra.getInstance();
             List<Cliente> clientelista = new List<Cliente>();

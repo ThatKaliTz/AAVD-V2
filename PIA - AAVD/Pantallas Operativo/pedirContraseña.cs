@@ -1,4 +1,4 @@
-﻿using PIA___MAD.SQL_Conexion;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PIA___MAD.Pantallas_Operativo
+namespace PIA___AAVD.Pantallas_Operativo
 {
     public partial class pedirContraseña : Form
     {
@@ -32,11 +32,11 @@ namespace PIA___MAD.Pantallas_Operativo
 
         private void btnContra_Click(object sender, EventArgs e)
         {
-            ConexionSQL conexionSQL = new ConexionSQL();
+
             string Contra = Convert.ToString(txtContra.Text);
             if (Contra != null)
             {
-                conexionSQL.ActualizarContra(usuario, Contra);
+
                 LogIn.nuevaContra = false;
                 this.Hide();
                 login login_ = new login();

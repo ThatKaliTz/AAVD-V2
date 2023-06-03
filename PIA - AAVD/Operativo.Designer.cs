@@ -1,4 +1,4 @@
-﻿namespace PIA___MAD
+﻿namespace PIA___AAVD
 {
     partial class Operativo
     {
@@ -123,7 +123,7 @@
             this.btnCheckOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCheckOut.ForeColor = System.Drawing.Color.Snow;
-            this.btnCheckOut.Image = global::PIA___MAD.Properties.Resources.icons8_page_up_button_30;
+            this.btnCheckOut.Image = global::PIA___AAVD.Properties.Resources.icons8_page_up_button_30;
             this.btnCheckOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCheckOut.Location = new System.Drawing.Point(0, 249);
             this.btnCheckOut.Margin = new System.Windows.Forms.Padding(2);
@@ -143,7 +143,7 @@
             this.btnCheckIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCheckIn.ForeColor = System.Drawing.Color.Snow;
-            this.btnCheckIn.Image = global::PIA___MAD.Properties.Resources.icons8_page_down_button_30;
+            this.btnCheckIn.Image = global::PIA___AAVD.Properties.Resources.icons8_page_down_button_30;
             this.btnCheckIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCheckIn.Location = new System.Drawing.Point(0, 190);
             this.btnCheckIn.Margin = new System.Windows.Forms.Padding(2);
@@ -163,7 +163,7 @@
             this.btnReservacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReservacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReservacion.ForeColor = System.Drawing.Color.Snow;
-            this.btnReservacion.Image = global::PIA___MAD.Properties.Resources.icons8_reservation_50;
+            this.btnReservacion.Image = global::PIA___AAVD.Properties.Resources.icons8_reservation_50;
             this.btnReservacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReservacion.Location = new System.Drawing.Point(0, 131);
             this.btnReservacion.Margin = new System.Windows.Forms.Padding(2);
@@ -183,7 +183,7 @@
             this.btnCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCliente.ForeColor = System.Drawing.Color.Snow;
-            this.btnCliente.Image = global::PIA___MAD.Properties.Resources.icons8_user_30;
+            this.btnCliente.Image = global::PIA___AAVD.Properties.Resources.icons8_user_30;
             this.btnCliente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCliente.Location = new System.Drawing.Point(0, 72);
             this.btnCliente.Margin = new System.Windows.Forms.Padding(2);

@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PIA___MAD.Pantallas_Operativo;
+using PIA___AAVD.Pantallas_Operativo;
 
-namespace PIA___MAD
+namespace PIA___AAVD
 {
 
     public partial class Operativo : Form

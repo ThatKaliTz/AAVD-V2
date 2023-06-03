@@ -8,11 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using PIA___MAD.Pantallas;
-using PIA___MAD.SQL_Conexion;
+using PIA___AAVD.Pantallas;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace PIA___MAD.Pantallas_Admin
+namespace PIA___AAVD.Pantallas_Admin
 {
     public partial class historial : Form
     {
@@ -46,7 +45,7 @@ namespace PIA___MAD.Pantallas_Admin
         {
 
             var Err = false; // SI no hay error
-            ConexionSQL conexionSQL = new ConexionSQL();
+
             DataTable historialTabla = new DataTable();
 
             try
@@ -57,13 +56,13 @@ namespace PIA___MAD.Pantallas_Admin
                 if (filtroSeleccionado == "Año")
                 {
                     int anio = Convert.ToInt32(txtDatoBuscado.Text);
-                    historialTabla = conexionSQL.ObtenerReservasPorAnio(anio);
+
                 }
 
                 if (filtroSeleccionado == "Cliente")
                 {
                     string cliente = Convert.ToString(txtDatoBuscado.Text);
-                    historialTabla = conexionSQL.ObtenerReservasPorCliente(cliente);
+
 
                 }
 
@@ -90,8 +89,7 @@ namespace PIA___MAD.Pantallas_Admin
                     reserva.costoServicio = Convert.ToSingle(row["costoServicio"]);
                     reserva.checkOut = Convert.ToInt32(row["checkOut"]);
 
-                    decimal montoTotal = conexionSQL.ObtenerTotalReserva(reserva.codigoReservacion);
-                    reserva.montoTotal = Convert.ToSingle(montoTotal);
+
                     
 
                     // Agregar el objeto HistorialCliente a la lista

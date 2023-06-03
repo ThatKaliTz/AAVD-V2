@@ -1,4 +1,4 @@
-﻿using PIA___MAD.Pantallas;
+﻿using PIA___AAVD.Pantallas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,9 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PIA___MAD.Pantallas_Admin;
+using PIA___AAVD.Pantallas_Admin;
 
-namespace PIA___MAD
+namespace PIA___AAVD
 {
     public partial class Admin : Form
     {

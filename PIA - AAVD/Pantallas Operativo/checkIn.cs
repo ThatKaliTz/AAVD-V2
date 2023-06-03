@@ -1,5 +1,4 @@
 ﻿using PIA___AAVD;
-using PIA___MAD.SQL_Conexion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PIA___MAD.Pantallas_Operativo
+namespace PIA___AAVD.Pantallas_Operativo
 {
     public partial class checkIn : Form
     {

@@ -1,5 +1,4 @@
 ﻿using PIA___AAVD;
-using PIA___MAD.SQL_Conexion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,9 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static PIA___MAD.Clases;
+using static PIA___AAVD.Clases;
 
-namespace PIA___MAD.Pantallas_Operativo
+namespace PIA___AAVD.Pantallas_Operativo
 {
     public partial class reservacionesHabitaciones : Form
     {
@@ -142,8 +141,7 @@ namespace PIA___MAD.Pantallas_Operativo
 
         private void btnBuscarHabitacion_Click(object sender, EventArgs e)
         {
-            //
-            //ConexionSQL conexionSQL = new ConexionSQL();
+
             EnlaceCassandra enlace = EnlaceCassandra.getInstance();
 
             try

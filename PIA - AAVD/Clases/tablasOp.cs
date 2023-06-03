@@ -1,5 +1,5 @@
-﻿using PIA___MAD.Pantallas_Admin;
-using PIA___MAD.Pantallas_Operativo;
+﻿using PIA___AAVD.Pantallas_Admin;
+using PIA___AAVD.Pantallas_Operativo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PIA___MAD
+namespace PIA___AAVD
 {
     public static class habID
     {

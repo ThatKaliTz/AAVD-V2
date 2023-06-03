@@ -7,7 +7,7 @@ using Cassandra;
 using Cassandra.Mapping;
 using Cassandra.Mapping.Attributes;
 
-namespace PIA___MAD.Conexion
+namespace PIA___AAVD.Conexion
 {
 
 

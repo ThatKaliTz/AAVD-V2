@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using PIA___AAVD;
-using PIA___MAD.Pantallas;
-using PIA___MAD.Pantallas_Admin;
-using PIA___MAD.SQL_Conexion;
-using static PIA___MAD.Clases;
+using PIA___AAVD.Pantallas;
+using PIA___AAVD.Pantallas_Admin;
 
-namespace PIA___MAD
+using static PIA___AAVD.Clases;
+
+namespace PIA___AAVD
 {
     public partial class regTipoHab : Form
     {
